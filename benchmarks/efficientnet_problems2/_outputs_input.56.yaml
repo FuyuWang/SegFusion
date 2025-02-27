@@ -1,0 +1,14 @@
+problem:
+  C: 1
+  Hdilation: 1
+  Hstride: 2
+  K: 1
+  N: 1
+  P: 14
+  Q: 14
+  R: 5
+  S: 5
+  H: 672
+  Wdilation: 1
+  Wstride: 2
+  type: DEP

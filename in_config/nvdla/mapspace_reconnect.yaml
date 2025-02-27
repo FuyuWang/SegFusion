@@ -1,0 +1,28 @@
+mapspace:
+  constraints:
+  - target: LRF
+    type: datatype
+    keep:
+    - Inputs
+    bypass:
+    - Weights
+    - Outputs
+  - target: RF
+    type: datatype
+    keep:
+    - Outputs
+    bypass:
+    - Inputs
+    - Weights
+  - target: SMEM
+    type: datatype
+    keep:
+    - Inputs
+    - Weights
+    - Outputs
+  - target: DRAM
+    type: datatype
+    keep:
+    - Inputs
+    - Weights
+    - Outputs
